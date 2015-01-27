@@ -1,0 +1,24 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace DHMSP14_4
+{
+    class NBAObserver:Observer
+    {
+        public NBAObserver(string name, ISubject sec)
+            : base(name, sec)
+        
+        {
+            this._name = name;
+            this.sub = sec;
+        }
+
+        public override void Update() 
+        {
+            Console.WriteLine("{0}{1}关闭NBA直播，继续工作", sub.SecretaryAction, _name);
+        }
+    }
+}
