@@ -16,7 +16,6 @@ namespace DHMSP1
             oper.NumberB = 8;
             double result = oper.getResult();
             Console.WriteLine("结果是：" + result);
-            Console.ReadLine();
 
             //try
             //{
