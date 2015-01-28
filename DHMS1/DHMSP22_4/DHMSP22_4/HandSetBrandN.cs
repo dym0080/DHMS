@@ -4,13 +4,14 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace DHMSP17_2
+namespace DHMSP22_4
 {
-    class Target
+    //手机N品牌
+    class HandSetBrandN:HandSetBrand
     {
-        public virtual void Request()
+        public override void Run()
         {
-            Console.WriteLine("普通请求");
+            soft.Run();
         }
     }
 }

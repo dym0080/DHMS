@@ -5,11 +5,11 @@ using System.Runtime.InteropServices;
 // 有关程序集的常规信息通过以下
 // 特性集控制。更改这些特性值可修改
 // 与程序集关联的信息。
-[assembly: AssemblyTitle("DHMSP17_2")]
+[assembly: AssemblyTitle("DHMSP18_2")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("DHMSP17_2")]
+[assembly: AssemblyProduct("DHMSP18_2")]
 [assembly: AssemblyCopyright("Copyright ©  2014")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
@@ -20,7 +20,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // 如果此项目向 COM 公开，则下列 GUID 用于类型库的 ID
-[assembly: Guid("7a520faf-54eb-4bd8-8757-5f6ef0dc5ec4")]
+[assembly: Guid("70972ce4-b09e-4035-859f-f027a5192aa4")]
 
 // 程序集的版本信息由下面四个值组成: 
 //

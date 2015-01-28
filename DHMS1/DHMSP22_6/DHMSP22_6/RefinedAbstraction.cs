@@ -4,13 +4,13 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace DHMSP17_2
+namespace DHMSP22_6
 {
-    class Target
+    class RefinedAbstraction:Abstraction
     {
-        public virtual void Request()
+        public override void Operation()
         {
-            Console.WriteLine("普通请求");
+            implementor.Operation();
         }
     }
 }

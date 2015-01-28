@@ -6,11 +6,13 @@ using System.Threading.Tasks;
 
 namespace DHMSP17_2
 {
-    class Target
+    class Adapter:Target
     {
-        public virtual void Request()
+        private Adaptee adaptee = new Adaptee();
+
+        public override void Request()
         {
-            Console.WriteLine("普通请求");
+            adaptee.SpecficRequest();
         }
     }
 }

@@ -4,11 +4,11 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{BD5F7E16-E1CF-4DA2-B9F3-74809E74E3CA}</ProjectGuid>
+    <ProjectGuid>{B565E4A0-A600-406A-93F3-88F890159931}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>DHMSP17_2</RootNamespace>
-    <AssemblyName>DHMSP17_2</AssemblyName>
+    <RootNamespace>DHMSP20_3</RootNamespace>
+    <AssemblyName>DHMSP20_3</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>
@@ -41,11 +41,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Adaptee.cs" />
-    <Compile Include="Adapter.cs" />
+    <Compile Include="Aggregate.cs" />
+    <Compile Include="ConcreteAggregate.cs" />
+    <Compile Include="ConcreteIterator.cs" />
+    <Compile Include="Iterator.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Target.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
